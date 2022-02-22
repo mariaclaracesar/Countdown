@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #4d4c59;
+  --purple: #6c63ff;
+  --light-grey: #c8c8c8;
+  --text-color: #9c9ab6;
+}
+
+body {
+  font-family: Poppins;
+}
+
+#main1 {
+  padding-left: 127px;
+}
+
+#container {
+  height: 100vh;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#main1 #text-ready {
+  color: var(--purple);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.105em;
+}
+
+#img-top img {
+  flex: 1;
+  width: 100vw;
+}
+
+#img-bottom {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+
+#img-bottom img {
+  width: 100vw;
+}
+
+#main1 #tempo {
+  width: 494px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  color: var(--light-grey);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#main1 #countdown {
+  width: 494px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#main1 #dois-pontos-1,
+#dois-pontos-2,
+#dois-pontos-3,
+#dia,
+#hora,
+#minuto,
+#segundo {
+  color: var(--black);
+  font-size: 72px;
+}
+
+#inscricao #text-inscricao {
+  color: var(--text-color);
+  font-size: 14px;
+
+  padding-top: 46px;
+}
+
+#inscricao {
+  padding-left: 196px;
+}
+
+#inscricao #button {
+  padding-left: 96px;
+  padding-top: 31px;
+}
+
+#inscricao #button button {
+  background-color: var(--purple);
+  width: 160px;
+  height: 46px;
+
+  border-radius: 10px;
+  border: none;
+
+  color: #fff;
+  font-size: 16px;
+}
+
+#inscricao #button button:hover {
+  cursor: pointer;
+}
